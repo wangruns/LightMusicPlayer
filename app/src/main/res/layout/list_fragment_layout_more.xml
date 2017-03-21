@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/music_player"
+        android:id="@+id/imageView_more"
+        android:background="#A4D3EE"
+        android:layout_alignParentTop="true" />
+
+
+    <ListView
+        android:id="@+id/listView_music_name_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

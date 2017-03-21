@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LightMusicPlayer</string>
+    <string name="Play">Play</string>
+    <string name="Stop">Stop</string>
+    <string name="Pause">Pause</string>
+    <string name="more">More</string>
+</resources>

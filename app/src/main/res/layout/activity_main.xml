@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="top">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music_player_main_1"
+            android:layout_marginTop="100dp"
+            android:id="@+id/translateImage"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dip">
+            <SeekBar android:paddingRight="10dip"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:layout_weight="1.0"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/seekbar_progress"
+                android:max="100"></SeekBar>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/play_btn"
+                android:src="@drawable/play_btn"
+                android:text="@string/Play"/>
+
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:id="@+id/pause_btn"
+                android:text="@string/Pause"
+                android:src="@drawable/puase_btn"
+                android:layout_width="100dp" />
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:text="@string/Stop"
+                android:src="@drawable/stop_btn"
+                android:id="@+id/stop_btn" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</FrameLayout>
